@@ -66,6 +66,7 @@ header li :hover{
     border-bottom: 2px #DB7490 solid;
 }
 /*end of header
+    Index page
 begin showcase*/
 #Showcase{
     min-height: 40px;
@@ -80,8 +81,10 @@ begin showcase*/
     font-size: 55px;
     margin-bottom: 10px;
 }
+
 /*#FFE0DF     #DB7490      #E19AA4*/
 /*begining newsletter part*/
+
 #newsletter{
     background-color: #E19AA4;
     padding: 15px;
@@ -101,11 +104,14 @@ begin showcase*/
     background-color: #35424a;
     margin-left: 10px;
     color: #ffffff;
+    border: 0;
+    border-radius: 5px;
 }
 #newsletter input[type="email"]{
     height: 32px;
     width: 250px;
     border-radius: 3px;
+    border: 0;
 }
 /*Boxes*/
 #boxes .container{
@@ -124,7 +130,7 @@ begin showcase*/
     /* border: #35424a solid 2px; */
 }
 #boxes .box img{
-    width: 90px;
+    width: 200px;
 }
 /*Footer*/
 footer{
@@ -146,4 +152,31 @@ main & sidebar*/
     float: right;
     width: 30%;
     margin-top:10px ;
+}
+/* service page
+*/
+.dark{
+    background-color: #DB7490;
+    margin-top: 10px;
+    padding:10px ;
+    color: #35424a;
+    border-radius: 10px;
+}
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+aside#sidebar .quote input , aside#sidebar .quote textarea{
+    width: 95%;
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
+    margin: 5px;
+}
+aside#sidebar .quote label{
+    
+    padding: 5px 0px;
 }
